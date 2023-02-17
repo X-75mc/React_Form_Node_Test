@@ -3,17 +3,24 @@ import React, { useState } from 'react';
 
 const Header = () => {
 
-    const [data, setData] = useState({});
+    const [data, setData] = useState('');
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        const formData = new FormData(event.target);
+        
     
-        fetch('http://example.com/api/endpoint', {
+        fetch('http://localhost:8000/', {
           method: 'POST',
-          body: formData
+          headers: {
+            'Content-Type': 'application/x-www-form-urlencoded',
+        },
+          body: JSON.stringify({
+            'name': event.target.name.value,
+            'email' : event.target.email.value,
+             'message' : event.target.message.value
+          }),
         })
-          .then((response) => response.json())
+          .then((response) => response.text())
           .then((result) => {
             setData(result);
           });
