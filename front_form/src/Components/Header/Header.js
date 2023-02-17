@@ -15,9 +15,9 @@ const Header = () => {
             'Content-Type': 'application/x-www-form-urlencoded',
         },
           body: JSON.stringify({
-            'name': event.target.name.value,
-            'email' : event.target.email.value,
-             'message' : event.target.message.value
+            "name": event.target.name.value,
+            "mail" : event.target.mail.value,
+             "message" : event.target.message.value
           }),
         })
           .then((response) => response.text())
@@ -32,7 +32,7 @@ const Header = () => {
                 <div className='bg'>
                     <form onSubmit={handleSubmit}>
                         <input type="text" name="name" />
-                        <input type="text" name="email" />
+                        <input type="text" name="mail" />
                         <textarea name="message"></textarea>
                         <button type="submit">Submit</button>
                     </form>
