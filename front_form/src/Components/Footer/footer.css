@@ -1,0 +1,39 @@
+
+.Bg_footer {
+    padding-top: 70%;
+    position: relative;
+}
+
+.footer {
+    
+    background: #FAFAFA;
+    border: 1px solid #D8D8D8;
+    width: 1380px;
+    height: 200px;
+}
+
+.social_list {
+    position: absolute;
+    left: 20%;
+    top: 90%;
+
+}
+
+.sunBig {
+    position: absolute;
+    top:79%;
+    left: -2%;
+}
+
+.sunGreen {
+    position: absolute;
+    top:82.3%;
+    left: 80%;
+}
+
+.sunBlue {
+    position: absolute;
+    top:86.3%;
+    left: 96%;
+}
+

@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 100%;
+    background: hsl(0, 0%, 100%);
+    position: relative;
+}
+
+.bg {
+    
+}
+
+.vector_1 {
+    position: absolute;
+    display: block;
+    top: 75px;
+}
+
+.vector_2 {
+    position: absolute;
+    
+    left:56%;
+}
+
+.vector_3 {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+
+.vector_4 {
+    position: absolute;
+    left: 714px;
+    top: 21px;
+}
+
+.vector_5 {
+    position: absolute;
+    top: 500px;
+    left: 710px;
+    transform: rotate(0.98turn);
+}
+
+.vector_6 {
+    position: absolute;
+    top: 480px;
+    left: 720px;
+}
+
+.form_div {
+    position: absolute;
+    display: block;
+    width: 40%;
+    top: 20%;
+}
+
+.text_top {
+    position: absolute;
+    width: 563px;
+    height: 58px;
+    left: 147px;
+    top: 179px;
+    font-family: 'Apercu Arabic Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 130%;
+    color: #3E3E3E;
+}
+
+.inp_text_name {
+    box-sizing: border-box;
+    position: absolute;
+    width: 557px;
+    height: 70px;
+    left: 150px;
+    top: 267px;
+    background: #FFFFFF;
+    border: 1px solid #DCDCDC;
+    border-radius: 10px;
+}
+
+.inp_text_mail {
+    box-sizing: border-box;
+    position: absolute;
+    width: 557px;
+    height: 70px;
+    left: 150px;
+    top: 345px;
+    background: #FFFFFF;
+    border: 1px solid #DCDCDC;
+    border-radius: 10px;
+}
+
+.textarea {
+    box-sizing: border-box;
+    position: absolute;
+    width: 557px;
+    height: 189px;
+    left: 150px;
+    top: 425px;
+    background: #FFFFFF;
+    border: 1px solid #DCDCDC;
+    border-radius: 10px;
+}
+
+.btn {
+    position: absolute;
+    width: 218px;
+    height: 73px;
+    left: 150px;
+    top: 645px;
+    background: #FAD34F;
+    border-radius: 500px;
+    font-family: 'Apercu Arabic Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: none;
+
+}
